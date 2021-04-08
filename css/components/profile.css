@@ -1,0 +1,23 @@
+.profile {
+  margin-top: 70px;
+  display: flex;
+}
+
+.profile-image {
+  width: 90px;
+  height: 85px;
+}
+
+.profile span {
+  opacity: .6;
+  cursor: pointer;
+}
+
+.profile .name {
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.profile .wrapper-items {
+  margin-left: 15px;
+}
