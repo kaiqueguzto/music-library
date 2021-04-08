@@ -1,0 +1,11 @@
+.sidebar {
+  max-width: 330px;
+  height: 100vh;
+  background: #040517;;
+  color: #e5e5e5e7;
+
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
