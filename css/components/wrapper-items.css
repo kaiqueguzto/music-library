@@ -1,0 +1,28 @@
+.wrapper-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.wrapper-items ul {
+  padding: 10px 0px;
+  width: 55%;
+  margin-top: 30px;
+  border-top: 1px solid rgba(206, 206, 206, 0.178);
+}
+
+.wrapper-items ul li {
+  display: flex;
+  align-items: center;
+  margin: 8px 0px;
+}
+
+.wrapper-items ul li:hover {
+  color: #FFF;
+  opacity: .7;
+}
+
+.wrapper-items ul li img {
+  margin-right: 12px;
+}
