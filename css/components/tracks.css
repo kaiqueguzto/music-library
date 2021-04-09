@@ -1,0 +1,35 @@
+.tracks {
+
+  max-width: 45%;
+  width: 100%;
+  overflow-x: scroll;
+  scrollbar-color: rgba(114, 61, 167, 0.397) rgba(102, 51, 153, 0.178);
+  scrollbar-width: thin ;
+  padding: 12px 0px;
+}
+
+.tracks h2 {
+  margin-bottom: 16px;
+}
+
+.track-image {
+  width: 120px;
+  height: 120px;
+}
+
+.tracks ul li {
+  filter: brightness(80%);
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 24px;
+}
+
+.tracks ul li:hover {
+  filter: brightness(100%);
+}
+
+
+.tracks ul li .main-text.-name{
+  margin-top: 6px;
+}
