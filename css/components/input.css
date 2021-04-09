@@ -11,6 +11,11 @@
   margin-right: 14px;
   width: 23px;
   height: 23px;
+  cursor: pointer
+}
+
+.input img:hover {
+  transform: rotate(-15deg);
 }
 
 .input .search {
@@ -23,3 +28,4 @@
   background: #18002C;
   outline: none;
 }
+

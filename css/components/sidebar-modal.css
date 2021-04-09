@@ -13,4 +13,28 @@
 
   position: absolute;
   right: 0;
+  animation: sidebarMobile 0.5s ease-in-out;
+}
+
+@keyframes sidebarMobile {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+
+@keyframes sidebarMobileOut{
+  from {
+    display: flex;
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+    display: none;
+  }
 }
