@@ -1,0 +1,10 @@
+.profile-image {
+  width: 90px;
+  height: 85px;
+}
+
+.profile-image.-second {
+  width: 80px;
+  height: 70px;
+  border-radius: 4px;
+}
