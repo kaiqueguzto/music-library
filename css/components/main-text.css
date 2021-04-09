@@ -1,8 +1,14 @@
 .main-text {
-  opacity: .6;
+  opacity: .5;
   cursor: pointer;  
+}
+
+.main-text.-select {
+  color: #FFF;
+  opacity: .8;
 }
 
 .main-text img {
   opacity: 1
 }
+
