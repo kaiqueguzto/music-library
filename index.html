@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/components/tracks.css" >
   <link rel="stylesheet" href="css/components/wrapper-tracks.css" >
   <link rel="stylesheet" href="css/components/sidebar-mobile.css" >
+  <link rel="stylesheet" href="css/components/sidebar-modal.css" >
   <title>Music Library</title>
 </head>
 <body>
@@ -200,8 +201,30 @@
         <span class="-mobile">Edit Profile</span>
       </div>
     </div>
-    <img class="menu" src="/assets/menu-4-24.png" alt="">
+    <img onclick="modal.open()" class="menu" src="/assets/menu-4-24.png" alt="">
   </footer>
 
+  <div class="sidebar-modal">
+    <div class="wrapper-items">
+      <img onclick="modal.close()" class="icon close-modal" src="/assets/x-mark-24.png" alt="">
+
+      <ul>
+        <li class="main-text -select"><img class="icon"   src="/assets/analytics-3-32.png" alt="">OverView</li>
+        <li class="main-text"><img class="icon" src="/assets/newspaper-12-32.png" alt="">News</li>
+        <li class="main-text"><img src="/assets/note-24.png" alt="">Playlist</li>
+        <li class="main-text"><img class="icon" src="/assets/signalk.png" alt="">Discover</li>
+      </ul>
+
+      <ul>
+        <li class="main-text"><img class="icon" src="/assets/dashboard_white_192x192.png" alt="">Dashboard</li>
+        <li class="main-text"><img class="icon" src="/assets/message-2-32.png" alt="">Messages</li>
+        <li class="main-text"><img class="icon" src="/assets/notification-icon-png-white-1.png" alt="">Notifications</li>
+        <li class="main-text"><img class="icon" src="/assets/user-4-24.png" alt="">Account</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <script src="/js/script.js"></script>
 </body>
 </html>
