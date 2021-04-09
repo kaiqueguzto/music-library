@@ -1,7 +1,7 @@
 .sidebar-mobile {
   width: 100%;
 
-  position: absolute;
+  position: fixed;
   color: #fff;
   bottom: 0;
   background: #040517;
