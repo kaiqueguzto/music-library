@@ -1,4 +1,9 @@
 .main-section {
-  margin-left: 100px;
-  margin-top: 20px;
+  margin-left: 60px;
+  margin-top: 15px;
+  max-width: 1300px;
+  padding: 0px 20px;
+  width: 100%;
+
+  color: #e5e5e5e7;
 }

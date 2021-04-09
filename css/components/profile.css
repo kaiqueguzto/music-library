@@ -1,5 +1,6 @@
 .profile {
     display: flex;
+    align-items: center;
 }
 .profile-image {
   width: 90px;
@@ -13,6 +14,7 @@
 
 .profile .name {
   color: #FFF;
+  font-size: 21px;
   margin-bottom: 10px;
 }
 
