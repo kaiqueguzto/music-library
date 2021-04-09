@@ -1,0 +1,19 @@
+.wrapper-playlist {
+  padding: 20px 0;
+  max-width: 100%;
+  overflow-x: scroll;
+  scrollbar-color: rgba(114, 61, 167, 0.397) rgba(102, 51, 153, 0.178);
+  scrollbar-width: thin ;
+  display: flex;
+
+
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+}
+
+.wrapper-playlist::-webkit-scrollbar-track-piece  {
+  background-color: rgba(102, 51, 153, 0.39);
+}
+
