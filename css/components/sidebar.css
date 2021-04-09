@@ -1,11 +1,13 @@
 .sidebar {
   max-width: 330px;
   height: 100vh;
-  background: #040517;;
   color: #e5e5e5e7;
+  background: #040517;
 
   display: flex;
-  justify-content: center;
-  padding: 8px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 16px;
 }
+
 

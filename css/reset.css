@@ -12,4 +12,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 
+  background:#18002C;
+
+  display: flex;
 }

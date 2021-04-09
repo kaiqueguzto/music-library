@@ -1,8 +1,6 @@
 .profile {
-  margin-top: 70px;
-  display: flex;
+    display: flex;
 }
-
 .profile-image {
   width: 90px;
   height: 85px;
@@ -18,6 +16,6 @@
   margin-bottom: 10px;
 }
 
-.profile .wrapper-items {
+.profile .wrapper-profile {
   margin-left: 15px;
 }
