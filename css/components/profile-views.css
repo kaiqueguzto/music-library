@@ -1,0 +1,34 @@
+.profile-views {
+  max-width: 500px;
+  width: 100%;
+}
+
+.profile-views h2 {
+  margin-bottom: 16px;
+}
+
+.profile-views .users li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  filter: brightness(80%);
+  margin: 10px 0px;
+}
+
+.profile-views .users li:hover {
+  filter: brightness(100%);
+}
+.profile-views .users  .profile-info{
+  display: flex;
+}
+
+.profile-views .users  .profile-info div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.profile-views .users  .profile-info span:nth-child(2) {
+
+  margin-top: 10px;
+}

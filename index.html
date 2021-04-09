@@ -17,7 +17,9 @@
   <link rel="stylesheet" href="css/components/content.css">
   <link rel="stylesheet" href="css/components/playlist.css">
   <link rel="stylesheet" href="css/components/wrapper-playlist.css">
-
+  <link rel="stylesheet" href="css/components/main-wrapper.css" >
+  <link rel="stylesheet" href="css/components/profile-views.css" >
+  <link rel="stylesheet" href="css/components/profile-image.css" >
   <title>Music Library</title>
 </head>
 <body>
@@ -56,31 +58,84 @@
 
     <div class="content">
       <h1>Featured Playlist</h1>
-      <div class="wrapper-playlist">
+        <ul class="wrapper-playlist">
+          <li class="playlist">
+            <img class="playlist-image" src="/assets/playlist1.jpg" alt="">
+            <h1>y Stardust</h1>
+            <span>24 tracks</span>
+          </li>
+          <li class="playlist">
+            <img class="playlist-image" src="/assets/playlist2.jpg" alt="">
+            <h1>I love you</h1>
+            <span>32 tracks</span>
+          </li>
+          <li class="playlist">
+            <img class="playlist-image" src="/assets/playlist3.jpg" alt="">
+            <h1>The best 90s</h1>
+            <span>14 tracks</span>
+          </li>
+          <li class="playlist">
+            <img class="playlist-image" src="/assets/playlist4.jpg" alt="">
+            <h1>Pop</h1>
+            <span>214 tracks</span>
+          </li> 
+        </ul>
+        
+    </div>
 
-        <div class="playlist">
-          <img class="playlist-image" src="/assets/playlist1.jpg" alt="">
-          <h1>y Stardust</h1>
-          <span>24 tracks</span>
-        </div>
+    <div class="main-wrapper">
 
-        <div class="playlist">
-          <img class="playlist-image" src="/assets/playlist2.jpg" alt="">
-          <h1>Mike Vella</h1>
-          <span>12 tracks</span>
-        </div>
-        <div class="playlist">
-          <img class="playlist-image" src="/assets/playlist3.jpg" alt="">
-          <h1>The best singles</h1>
-          <span>163 tracks</span>
-        </div>
-        <div class="playlist">
-          <img class="playlist-image" src="/assets/playlist4.jpg" alt="">
-          <h1>Indie</h1>
-          <span>120 tracks</span>
-        </div>
+      <div class="profile-views">
+        <h2>Profile Views</h2>
+
+        <ul class="users">
+          <li>
+
+            <div class="profile-info">
+              <img class="profile-image -second"src="/assets/view1.jpg" alt="">
+              <div>
+                <span class="main-text -name">Jenny Vila</span>
+                <span class="main-text">2 Day Ago </span>
+              </div>
+            </div>
+
+            <span class="main-text">2 Albuns</span>
+
+          </li>
+
+          <li>
+
+            <div class="profile-info">
+              <img class="profile-image -second"src="/assets/view2.jpg" alt="">
+              <div>
+                <span class="main-text -name">Aquila</span>
+                <span class="main-text">1 Day Ago </span>
+              </div>
+            </div>
+
+            <span class="main-text">4 Albuns</span>
+
+          </li>
+
+          <li>
+
+            <div class="profile-info">
+              <img class="profile-image -second"src="/assets/view3.jpg" alt="">
+              <div>
+                <span class="main-text -name">This is war</span>
+                <span class="main-text">1 hour go </span>
+              </div>
+            </div>
+
+            <span class="main-text">1 Albuns</span>
+
+          </li>
+
+        </ul>
 
       </div>
+
+      <div class="tracks"></div>
     </div>
   </section>
 

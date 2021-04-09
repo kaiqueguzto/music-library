@@ -5,8 +5,6 @@
   scrollbar-color: rgba(114, 61, 167, 0.397) rgba(102, 51, 153, 0.178);
   scrollbar-width: thin ;
   display: flex;
-
-
 }
 
 ::-webkit-scrollbar {

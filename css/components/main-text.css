@@ -8,6 +8,13 @@
   opacity: .8;
 }
 
+.main-text.-name {
+  color: #FFF;
+  opacity: .8;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .main-text img {
   opacity: 1
 }

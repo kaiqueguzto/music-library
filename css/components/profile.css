@@ -2,10 +2,6 @@
     display: flex;
     align-items: center;
 }
-.profile-image {
-  width: 90px;
-  height: 85px;
-}
 
 .profile span {
   opacity: .6;
