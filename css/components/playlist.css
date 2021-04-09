@@ -1,0 +1,22 @@
+.playlist {
+  margin-right: 12px;
+}
+
+.playlist-image {
+  width: 420px;
+  height: 250px;
+
+  border-radius: 20px;
+}
+
+.playlist h1 {
+  margin: 8px 0px 4px 8px;
+
+}
+
+.playlist span {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #e5e5e5e7;
+  opacity: 0.6  ;
+}
