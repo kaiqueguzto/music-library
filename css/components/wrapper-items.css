@@ -15,7 +15,7 @@
 .wrapper-items ul li {
   display: flex;
   align-items: center;
-  margin: 8px 0px;
+  margin: 13px 0px;
 }
 
 .wrapper-items ul li:hover {

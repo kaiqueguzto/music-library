@@ -20,6 +20,9 @@
   <link rel="stylesheet" href="css/components/main-wrapper.css" >
   <link rel="stylesheet" href="css/components/profile-views.css" >
   <link rel="stylesheet" href="css/components/profile-image.css" >
+  <link rel="stylesheet" href="css/components/tracks.css" >
+  <link rel="stylesheet" href="css/components/wrapper-tracks.css" >
+  <link rel="stylesheet" href="css/components/sidebar-mobile.css" >
   <title>Music Library</title>
 </head>
 <body>
@@ -35,17 +38,17 @@
 
       <div class="wrapper-items">
         <ul>
-          <li class="main-text -select"><img src="/assets/analytics-3-32.png" alt="">OverView</li>
-          <li class="main-text"><img src="/assets/analytics-3-32.png" alt="">News</li>
-          <li class="main-text"><img src="/assets/analytics-3-32.png" alt="">Playlist</li>
-          <li class="main-text"><img src="/assets/analytics-3-32.png" alt="">Discover</li>
+          <li class="main-text -select"><img class="icon"   src="/assets/analytics-3-32.png" alt="">OverView</li>
+          <li class="main-text"><img class="icon" src="/assets/newspaper-12-32.png" alt="">News</li>
+          <li class="main-text"><img src="/assets/note-24.png" alt="">Playlist</li>
+          <li class="main-text"><img class="icon" src="/assets/signalk.png" alt="">Discover</li>
         </ul>
 
         <ul>
-          <li class="main-text -select"><img src="/assets/analytics-3-32.png" alt="">OverView</li>
-          <li class="main-text"><img src="/assets/analytics-3-32.png" alt="">News</li>
-          <li class="main-text"><img src="/assets/analytics-3-32.png" alt="">Playlist</li>
-          <li class="main-text"><img src="/assets/analytics-3-32.png" alt="">Discover</li>
+          <li class="main-text"><img class="icon" src="/assets/dashboard_white_192x192.png" alt="">Dashboard</li>
+          <li class="main-text"><img class="icon" src="/assets/message-2-32.png" alt="">Messages</li>
+          <li class="main-text"><img class="icon" src="/assets/notification-icon-png-white-1.png" alt="">Notifications</li>
+          <li class="main-text"><img class="icon" src="/assets/user-4-24.png" alt="">Account</li>
         </ul>
       </div>
   </div>
@@ -135,9 +138,70 @@
 
       </div>
 
-      <div class="tracks"></div>
+      <div class="tracks">
+
+        <h2>Tracks</h2>
+
+        <ul class="wrapper-tracks">
+          <li>
+            <img src="/assets/track1.jpg" class="track-image" alt="">
+            <span class="main-text -name">Mahara bon</span>
+            <span class="main-text">Sexy and drugs</span>
+          </li>
+          <li>
+            <img src="/assets/track2.jpg" class="track-image" alt="">
+            <span class="main-text -name">Donna</span>
+            <span class="main-text">Pseudo Life</span>
+          </li>
+          <li>
+            <img src="/assets/track3.jpg" class="track-image" alt="">
+            <span class="main-text -name">Avven</span>
+            <span class="main-text">Reborn</span>
+          </li>
+          
+          <li>
+            <img src="/assets/track4.jpg" class="track-image" alt="">
+            <span class="main-text -name">Cony</span>
+            <span class="main-text">Your Life</span>
+          </li>
+
+          <li>
+            <img src="/assets/track5.jpg" class="track-image" alt="">
+            <span class="main-text -name">Claudia Cany</span>
+            <span class="main-text">Feels Invicible</span>
+          </li>
+
+
+          <li>
+            <img src="/assets/track6.jpg" class="track-image" alt="">
+            <span class="main-text -name">Skillet</span>
+            <span class="main-text">Not gonna die</span>
+          </li>
+
+
+          <li>
+            <img src="/assets/track7.jpg" class="track-image" alt="">
+            <span class="main-text -name">Noah</span>
+            <span class="main-text">Not Cry</span>
+          </li>
+        </ul>
+
+      </div>
+
     </div>
+
   </section>
+
+  <footer class="sidebar-mobile">
+    <div class="profile">
+      <img class="profile-image -second"  src="/assets/profile.jpg" alt="">
+      <div class="wrapper-profile">
+        <h2 class="name -mobile">Dany Schulder</h2>
+        <span class="-mobile">Edit Profile</span>
+      </div>
+    </div>
+    <img class="menu" src="/assets/menu-4-24.png" alt="">
+  </footer>
 
 </body>
 </html>

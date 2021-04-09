@@ -1,4 +1,12 @@
 .main-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+}
+
+@media (max-width: 1118px) {
+  .main-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
 }

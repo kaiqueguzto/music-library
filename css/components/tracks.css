@@ -33,3 +33,16 @@
 .tracks ul li .main-text.-name{
   margin-top: 6px;
 }
+
+@media (max-width: 1118px) {
+  .tracks {
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 730px) {
+  .tracks {
+    margin-bottom: 120px;
+  }
+}

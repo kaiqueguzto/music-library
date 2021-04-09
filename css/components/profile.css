@@ -10,8 +10,19 @@
 
 .profile .name {
   color: #FFF;
-  font-size: 21px;
+  font-size: 20px;
   margin-bottom: 10px;
+}
+
+.profile .name.-mobile {
+  font-size: 14px;
+}
+
+.profile span.-mobile {
+  opacity: .6;
+  cursor: pointer;
+
+  font-size: 12px;
 }
 
 .profile .wrapper-profile {

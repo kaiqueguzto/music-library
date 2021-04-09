@@ -1,7 +1,7 @@
 .main-section {
   margin-left: 60px;
   margin-top: 15px;
-  max-width: 1300px;
+  max-width: 100%;
   padding: 0px 20px;
   width:  100%;
 
@@ -14,4 +14,10 @@
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+@media (max-width: 729px) {
+  .main-section {
+    margin-left: 0px;
+  }
 }

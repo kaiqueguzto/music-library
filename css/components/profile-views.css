@@ -1,5 +1,5 @@
 .profile-views {
-  max-width: 500px;
+  max-width: 40%;
   width: 100%;
 }
 
@@ -13,6 +13,7 @@
   padding: 10px 0px;
   filter: brightness(80%);
   margin: 10px 0px;
+  flex-wrap: wrap;
 }
 
 .profile-views .users li:hover {
@@ -31,4 +32,11 @@
 .profile-views .users  .profile-info span:nth-child(2) {
 
   margin-top: 10px;
+}
+
+
+@media (max-width: 1118px) {
+  .profile-views {
+    max-width: 100%;
+  }
 }

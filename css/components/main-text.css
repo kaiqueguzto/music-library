@@ -1,6 +1,7 @@
 .main-text {
   opacity: .5;
-  cursor: pointer;  
+  cursor: pointer; 
+  font-size: 15px; 
 }
 
 .main-text.-select {
@@ -11,7 +12,7 @@
 .main-text.-name {
   color: #FFF;
   opacity: .8;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 

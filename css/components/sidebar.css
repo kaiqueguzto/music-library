@@ -10,11 +10,18 @@
   flex-direction: column;
   justify-content: space-around;
   padding: 16px;
+
 }
-
-
 
 .icon {
   width: 24px;
   height: 24px;
+}
+
+
+
+@media (max-width:729px) {
+  .sidebar {
+    display: none;
+  }
 }
